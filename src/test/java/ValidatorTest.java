@@ -1,9 +1,11 @@
-package MyPkg;
+package test.java;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
+
+import MyPkg.Validator;
 
 public class ValidatorTest {
 	
