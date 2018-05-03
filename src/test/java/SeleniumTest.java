@@ -1,5 +1,7 @@
 package test.java;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -26,6 +28,7 @@ public class SeleniumTest {
 			elementPwd.sendKeys(Keys.TAB);
 			WebElement elementLogin = driver.findElement(By.name("submoit"));
 			elementLogin.sendKeys(Keys.ENTER);
+			assertEquals(true, false);
 			Thread.sleep(4000);
 			driver.quit();
 		}
