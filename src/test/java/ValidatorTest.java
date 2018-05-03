@@ -9,13 +9,13 @@ import MyPkg.Validator;
 
 public class ValidatorTest {
 	
-	public static void main()
-	{
-		JUnitCore jCore = new JUnitCore();
-		@SuppressWarnings("unused")
-		Result result = jCore.run(ValidatorTest.class);
+	//public static void main()
+	//{
+	//	JUnitCore jCore = new JUnitCore();
+	//	@SuppressWarnings("unused")
+	//	Result result = jCore.run(ValidatorTest.class);
 		
-	}
+	//}
 	@Test
     public void TestValidate()
 	{
